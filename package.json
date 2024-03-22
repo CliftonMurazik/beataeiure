@@ -1,0 +1,32 @@
+{
+  "name": "beataeiure",
+  "version": "1.0.0",
+  "description": "Shared dependencies of Compass, the MongoDB extension for VSCode and MongoSH",
+  "author": "MyraWehner",
+  "engines": {
+    "node": ">=14.17.5",
+    "npm": ">=7.16.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "configs/*",
+    "scripts"
+  ],
+  "dependencies": {
+    "@mongodb-js/monorepo-tools": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/parser": "7.16.0",
+    "depcheck": "^1.4.1",
+    "husky": "^8.0.3",
+    "lerna": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CliftonMurazik/beataeiure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CliftonMurazik/beataeiure.git/issues"
+  }
+}

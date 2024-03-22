@@ -1,0 +1,46 @@
+{
+  "name": "@mongodb-js/eslint-config-devtools",
+  "version": "0.9.10",
+  "description": "Shared DevTools eslint configuration",
+  "license": "SSPL",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "common.js",
+    "package.json",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "eslint": "^7.25.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/eslint-parser": "^7.22.7",
+    "@babel/preset-env": "^7.22.7",
+    "@babel/preset-react": "^7.22.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-filename-rules": "^1.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "scripts": {
+    "check": "npm run lint",
+    "lint": "prettier --check .",
+    "reformat": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mongodb-js/devtools-shared.git"
+  },
+  "homepage": "https://github.com/mongodb-js/devtools-shared",
+  "publishConfig": {
+    "access": "public"
+  }
+}
